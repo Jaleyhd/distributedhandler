@@ -1,7 +1,6 @@
 # Distributed DB
 
-Expresso is a Python-based GUI for designing, training and exploring deep-learning frameworks. It is built atop [Caffe](http://caffe.berkeleyvision.org), the open-source, prize-winning software popularly used to develop Convolutional Neural Networks.
-
-Please visit the [project page](http://val.serc.iisc.ernet.in/expresso) for an overview of Expresso's features, installation instructions and tutorials to help you get started.
-
+Distributed DB is a project designed to do realtime analysis of big data generated in a distributed way using python based simulator. We use Kafka server for buffering the information to the server. It is then aggragated and displayed via bootstrap.
+We use node.js for CDN hosting and angular.js and d3.js for realtime display.
+SQL is used for storing aggragated data
 
