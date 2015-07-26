@@ -1,0 +1,32 @@
+package Campaign;
+
+message CampaignParam{
+	repeated CampaignInfoParam campaign=1;
+}
+
+message CampaignInfoParam{
+	required string campId=1;
+	required string advId=2;
+	required uint32 w=3;
+	repeated ProductInfoParam product=4;
+		
+}
+message ProductInfoParam{
+	required string name=1;
+	required uint32 w=2;
+	required string prodId=3;
+	required string catId=4;
+	required string subCatId=5;
+}
+
+
+message ConfigParam{
+	required uint32 time_duration_milli=1;
+	required uint32 max_traffic=2;
+	required uint32 mean_traffic=3;
+	required uint32 burst_seperation_min=4;
+	required uint32 burst_duration_sec=5;
+	required uint32 no_traffic_seperation_min=6;
+	required uint32 no_traffic_duration_sec=7;
+	repeated uint32 stage_w=8;
+}

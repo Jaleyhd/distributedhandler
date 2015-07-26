@@ -1,0 +1,40 @@
+campaign{
+	campId:"camp123"
+	advId:"adv123"
+	w:2
+	product{
+		name:"parachute"
+		w:1
+		prodId:"prod123_parachute_111"
+		catId:"cat_household"
+		subCatId:"subcat_oil"
+	}
+	product{
+		name:"niharika"
+		w:2
+		prodId:"prod123_niharika_111"
+		catId:"cat_household"
+		subCatId:"subcat_oil"
+	}
+}
+campaign{
+	campId:"camp234"
+	advId:"adv234"
+	w:6
+	product{
+		name:"IndigoUS"
+		w:3
+		prodId:"prod234_IndigoUS_123"
+		catId:"cat_airlines"
+		subCatId:"subcat_domestic"
+
+	}
+	product{
+		name:"IndigoInd"
+		w:2
+		prodId:"prod234_IndigoInd_123"
+		catId:"cat_airlines"
+		subCatId:"subcat_international"
+	}
+}
+
