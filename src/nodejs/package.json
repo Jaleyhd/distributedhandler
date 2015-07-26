@@ -1,0 +1,12 @@
+{
+  "name": "Distributed DS",
+  "version": "0.0.0",
+  "description": "",
+  "author": "Jaley Dholakiya",
+  "dependencies": {
+    "express": "^4.11.2",
+    "body-parser": "1.x"
+  },
+  "devDependencies": {
+  }
+}

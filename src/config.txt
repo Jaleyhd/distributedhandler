@@ -1,0 +1,13 @@
+time_duration_milli:1000
+max_traffic:10
+mean_traffic:4
+burst_seperation_min:7000
+burst_duration_sec:1000
+no_traffic_seperation_min:5000
+no_traffic_duration_sec:1000
+stage_w:50
+stage_w:40
+stage_w:30
+stage_w:20
+stage_w:10
+
