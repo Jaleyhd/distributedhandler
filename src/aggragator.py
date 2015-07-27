@@ -1,3 +1,4 @@
+
 __author__ = 'user'
 from cassandra.cluster import Cluster
 
@@ -15,11 +16,11 @@ for message in consumer:
     print(message)
 
 #------------Cassandra Script -------
+"""
 cluster = Cluster()
 session = cluster.connect('demo')
 
-session.execute("
-insert into users (lastname, age, city, email, firstname) values ('Jaley', 24, 'Dholakiya', 'jaley.dholakiya@gmail.com', 'jaleyd')
+session.execute("insert into users (lastname, age, city, email, firstname) values ('Jaley', 24, 'Dholakiya', 'jaley.dholakiya@gmail.com', 'jaleyd')
 ")
 
 result = session.execute("select * from users where lastname='Jones' ")[0]
@@ -29,3 +30,4 @@ result = session.execute("select * from users where lastname='Jones' ")[0]
 
 
 #---------Reddis Script ----------
+"""
