@@ -73,6 +73,14 @@
 	  <div class="col-md-8">
   		  <div class="panel panel-default">
 	  		<div class="panel-body">
+	  		<div class="row">
+	  		<div class="col-md-5">
+	  		<h1>Distributed DS</h1>
+	  		</div>
+	  		<div class="col-md-7">
+	  		<h2><i>Graphing Realtime</i></h2>
+	  		</div>	  		
+	  		</div>
   	        <div class="col-md-7">
 	  
 				  	  	<!-- Right Side of Screen Begins(2/3) -->
@@ -82,22 +90,58 @@
 						  <li><a href="#">Custom</a></li>
 						</ul>			
 				  		</div>
-				  </div>
+				<!-- Custom View Begins -->
+		  		  <div class="panel panel-default">
+			  		<div class="panel-body">
+						<img src="centralmain.png" class="img-rounded" 	 width="350" />
+					</div>
+			  		</div>
+			  		<!-- Auxillary Views Begin-->
+			  	  <div class="col-md-6">
+		  		  <div class="panel panel-default">
+			  		<div class="panel-body">
+						<img src="centralmain.png" class="img-rounded" 	 width="160" />
+			  	  </div>
+			  	  </div>
+			  	  </div>
+				  <!-- Second Row -->
+			  	  <div class="col-md-6">
+		  		  <div class="panel panel-default">
+			  		<div class="panel-body">
+						<img src="googlemap.jpg" class="img-rounded" 	 width="160" />
+			  	  </div>
+			  	  </div>
+			  	  </div>				  
+			  		<!-- Auxillary View Ends-->
+			  		
+	  		
+				<!-- Custom View Ends -->
+			  	</div>
 		  		<div class="col-md-5">
+		  			  <h4 align="right"><b><i>Analysing Data</i></b></h4>
 		  			  <!-- Right Most Side Starts-->
 			 		  <div class="panel panel-default">
 				  		<div class="panel-body">
-					   <h3><b>Additional Filters</b></h3>
-					  	<p>These Filters are used to restrict the use case for the plots</p>				  	
+					   <h3><b>Additional Info</b></h3>
+					  	<p>These Filters are used to restrict/enhance the use case for the plots</p>				  	
 					  	<!-- Geo Filter Starts -->
 			 		  <div class="panel panel-default">
 				  			<div class="panel-body">
-				  			<h4>Geo Filter</h4>
-				  			<p>Select the region to be targetted in the map bellow</p>
-				  			 <img src="googlemap.jpg" class="img-rounded" alt="Cinque Terre" width="250" >
+				  			<h4>Geo Info</h4>
+				  			<p>Map bellow shows Geological display of target audience</p>
+				  			 <img src="googlemap.jpg" class="img-rounded" alt="Cinque Terre" width="250" />
+							</div>
+						</div>											  	
+					  	<!-- Geo Filter Ends -->
+					  	<!-- Stage Filter Starts -->
+			 		  <div class="panel panel-default">
+				  			<div class="panel-body">
+				  			<h4>Stage Info</h4>
+				  			<p>Map bellow shows Stage Info of target audience</p>
+				  			 <img src="stages.png" class="img-rounded" 	 width="250" />
 							</div>
 						</div>					  	
-					  	<!-- Geo Filter Ends -->
+					  	<!-- Stage Filter Ends -->
 				  		</div>			 		  			  
 					  <!-- Right Most Side Ends -->
 					</div>	  
